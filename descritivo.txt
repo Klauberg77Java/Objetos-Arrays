@@ -1,0 +1,13 @@
+Crie um programa que permita o cadastro de produtos contendo o código do produto, o nome do produto e o preço do produto.
+O programa deve atender os seguintes requisitos:
+
+* ter a opção de realizar a consulta de um produto através do seu código,
+* Incluir novos produtos
+* atualizar um produto existente
+* remover um produto
+* apresentar a lista de produtos cadastrados
+* apresentar o produto de maior valor
+* apresentar o produto de menor valor
+* apresentar os produtos que possuem valor acima da média
+* apresentar os produtos que possuan valor abaixo da média
+

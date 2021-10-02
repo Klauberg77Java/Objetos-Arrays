@@ -1,0 +1,72 @@
+A) PASSOS FUNDAMENTAIS DO APRENDIZADO
+    1) Esposição (demonstração/leitura)
+    2) Repetição
+    3) Aplica em diferentes contextos (adaptação)
+
+    O que?
+    Como?
+    Porque?
+
+B) QUAIS SÃO OS FUNDAMENTOS DA LÓGICA DE PROGRAMAÇÃO
+
+    ENTRADA  -->   PROCESSAMENTO --> SAÍDA
+
+C) QUAIS AS FERRAMENTAS QUE A LÓGICA DA PROGRAMAÇÃO ME OFERECE
+    * Leitura de dados
+        readline-sync.prompt()//faz a leitura de uma informação no terminal
+    * Armazenamento de dados
+        constantes e variáveis
+        simples: valores primitivos
+        complexos: Objetos/Listas
+    * Apresentação de dados
+        console.log() //apresenta dados no terminal
+    * Manipulação de dados
+        Operações matemáticas
+             +-%*/
+        Operações de comparação
+            > >= < <= != ==  =
+        Operações Lógicas
+            && || !
+        Operações de controle de fluxo
+            operações de desvio
+                IF/ELSE SWTICH/CASE Operador ternário     
+            operações de repetição 
+                while for do/while
+
+
+E QUAL É O OBJETIVO DE TUDO ISSO?
+    RESOLVER PROBLEMAS!!!!!!
+
+Crie um programa que calcule a média das notas de 5 alunos, cada aluno terá uma única nota.
+
+  ENTRADA
+    as 5 notas(uma para cada aluno)
+  PROCESSAMENTO
+    realizar o calculo da média e armazenar o valor do resultado 
+        (operações matemáticas/armazenamento de dados)
+  SAIDA
+     O resultado da média calculado no PROCESSAMENTO
+
+
+
+// ENTRADA
+//-----------
+    console.log("Informe o valor da nota do primeiro aluno");
+    let nota1 =parseFloat(realinesync.prompt());
+    console.log("Informe o valor da nota do segundo aluno");
+    let nota2 =parseFloat(realinesync.prompt());
+    console.log("Informe o valor da nota do terceiro aluno");
+    let nota3 =parseFloat(realinesync.prompt());
+    console.log("Informe o valor da nota do quarto aluno");
+    let nota4 =parseFloat(realinesync.prompt());
+    console.log("Informe o valor da nota do quinto aluno");
+    let nota5 = parseFloat(realinesync.prompt());
+
+
+// PROCESSAMENTO
+//-----------
+ let media = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
+
+// SAÍDA
+//-----------
+   console.log("A média das notas é ", media)
